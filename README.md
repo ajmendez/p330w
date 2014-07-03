@@ -14,6 +14,45 @@ ZyXel P330W wireless router debug
   * GND -- Closest to the RTL8186
 
 
+Device Info
+-----------
+
+    # cd /proc
+    # cat cpuinfo 
+    system type             : Philips Nino
+    processor               : 0
+    cpu model               : R3000 V0.0
+    BogoMIPS                : 178.99
+    wait instruction        : no
+    microsecond timers      : no
+    tlb_entries             : 64
+    extra interrupt vector  : no
+    hardware watchpoint     : no
+    VCED exceptions         : not available
+    VCEI exceptions         : not available
+    ll emulations           : 299
+    sc emulations           : 299
+    # 
+    # cat meminfo 
+            total:    used:    free:  shared: buffers:  cached:
+    Mem:  14741504  8224768  6516736        0   643072  3244032
+    Swap:        0        0        0
+    MemTotal:        14396 kB
+    MemFree:          6364 kB
+    MemShared:           0 kB
+    Buffers:           628 kB
+    Cached:           3168 kB
+    SwapCached:          0 kB
+    Active:           1656 kB
+    Inactive:         3396 kB
+    HighTotal:           0 kB
+    HighFree:            0 kB
+    LowTotal:        14396 kB
+    LowFree:          6364 kB
+    SwapTotal:           0 kB
+    SwapFree:            0 kB
+
+
 
 Boot Up
 --------
